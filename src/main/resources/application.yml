@@ -1,7 +1,7 @@
 # 项目相关配置
 venus:
   # 名称
-  name: bi
+  name: oceanus.bi
   # 版本
   version: 2.3.0
   # 版权年份
@@ -9,7 +9,7 @@ venus:
   # 实例演示开关
   demoEnabled: true
   # 文件路径
-  profile: /soft/venus.bi/upload
+  profile: /soft/oceanus.bi/upload
   # 获取ip地址开关
   addressEnabled: false
 
@@ -40,7 +40,7 @@ spring:
   messages:
     # 国际化资源文件路径
     basename: i18n/messages
-  profiles: 
+  profiles:
     active: druid
   resources:
     static-locations: classpath:/static
@@ -64,7 +64,7 @@ spring:
     # 端口，默认为6379
     port: 6379
     # 密码
-    password: 
+    password:
     # 连接超时时间
     timeout: 10s
     lettuce:
@@ -114,22 +114,22 @@ token:
     secret: abcdefghijklmnopqrstuvwxyz
     # 令牌有效期（默认30分钟）
     expireTime: 30
-  
+
 # MyBatis配置
 mybatis:
     # 搜索指定包别名
-    typeAliasesPackage: com.data.**.domain
+    typeAliasesPackage: com.oceanus.**.domain
     # 配置mapper的扫描，找到所有的mapper.xml映射文件
     mapperLocations: classpath*:mybatis/**/*Mapper.xml
     # 加载全局的配置文件
     configLocation: classpath:mybatis/mybatis-config.xml
 
 # PageHelper分页插件
-pagehelper: 
+pagehelper:
   helperDialect: mysql
   reasonable: true
   supportMethodsArguments: true
-  params: count=countSql 
+  params: count=countSql
 
 # Swagger配置
 swagger:
@@ -139,20 +139,20 @@ swagger:
   pathMapping: /dev-api
 
 # 防止XSS攻击
-xss: 
+xss:
   # 过滤开关
   enabled: true
   # 排除链接（多个用逗号分隔）
   excludes: /system/notice/*
   # 匹配链接
   urlPatterns: /system/*,/monitor/*,/tool/*,/rest/*
-  
+
 # 代码生成
-gen: 
+gen:
   # 作者
   author: zhangjiafeng
   # 默认生成包路径 system 需改成自己的模块名称 如 system monitor tool
-  packageName: com.data.system.system
+  packageName: com.oceanus.system.system
   # 自动去除表前缀，默认是true
   autoRemovePre: false
   # 表前缀（生成类名不会包含表前缀，多个用逗号分隔）
