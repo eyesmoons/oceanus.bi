@@ -19,7 +19,7 @@
 
 目录结构：
 
-![](doc\images\20210414172741.png)
+![image](doc/images/20210414172741.png)
 
 mobile ：手机端，手机端只是查看，不具备设计功能
 
@@ -42,28 +42,28 @@ npm run build
 
 ## 登录界面
 
-![](doc\images\20210414173559.png)
+![image](doc/images/20210414173559.png)
 
 ## 首页
 
-![](doc\images\20210414175053.png)
+![image](doc/images/20210414175053.png)
 
 ## 图表设计
 
-![](doc\images\20210414175636.png)
+![image](doc/images/20210414175636.png)
 
 ## 数据看板
 
-![](doc\images\20210414175540.png)
+![image](doc/images/20210414175540.png)
 
 ## 数据下钻
 
-![](doc\images\20210414175613.png)
+![image](doc/images/20210414175613.png)
 
 ## 数据报表设计
 
-![](doc\images\20210414175711.png)
+![image](doc/images/20210414175711.png)
 
 ## 元数据管理
 
-![](doc\images\20210414180245.png)
+![image](doc/images/20210414180245.png)
